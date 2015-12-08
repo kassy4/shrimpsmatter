@@ -1,0 +1,469 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  background: url(../images/waves-2.png) repeat;
+  background-size: 250px 250px;
+  line-height: 1.5; }
+
+section.hero {
+  margin: 0 auto;
+  position: relative;
+  height: 800px;
+  width: 80%; }
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 150px;
+  position: relative; }
+
+a.shrimps {
+  width: 200px;
+  height: 88px;
+  display: block;
+  text-indent: -999999px;
+  background: url(../images/shrimps-matter-logo.png) no-repeat;
+  background-size: 200px 88px;
+  max-width: 100%;
+  border-bottom: none;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto; }
+  a.shrimps:hover {
+    background-image: url(../images/shrimps-matter-logo-over.png); }
+
+h2 {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0 20px; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  max-width: 550px;
+  margin: 0 auto;
+  font-size: 110%;
+  margin-bottom: 20px;
+  padding: 0 20px; }
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted #c94800;
+  color: #c94800; }
+  a:hover {
+    color: #fb5a00; }
+
+.fish {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  background-size: 50% 50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.basking-shark {
+  background: url(/images/fish/basking-shark.png) no-repeat;
+  background-size: 306px 175px;
+  width: 306px;
+  height: 175px;
+  left: -510px;
+  bottom: 240px; }
+  .basking-shark:hover {
+    -webkit-transform: rotate(10deg) translate(20px, 10px);
+    -moz-transform: rotate(10deg) translate(20px, 10px);
+    -ms-transform: rotate(10deg) translate(20px, 10px);
+    -o-transform: rotate(10deg) translate(20px, 10px);
+    transform: rotate(10deg) translate(20px, 10px); }
+  @media screen and (max-width: 550px) {
+    .basking-shark {
+      left: -460px; } }
+
+.beluga-whale {
+  background: url(/images/fish/beluga-whale.png) no-repeat;
+  background-size: 240px 185px;
+  width: 240px;
+  height: 185px;
+  right: -230px;
+  bottom: 400px; }
+  .beluga-whale:hover {
+    -webkit-transform: rotate(0deg) translate(-40px, 40px);
+    -moz-transform: rotate(0deg) translate(-40px, 40px);
+    -ms-transform: rotate(0deg) translate(-40px, 40px);
+    -o-transform: rotate(0deg) translate(-40px, 40px);
+    transform: rotate(0deg) translate(-40px, 40px); }
+
+.blue-whale {
+  background: url(/images/fish/blue-whale.png) no-repeat;
+  background-size: 1600px 603px;
+  width: 1600px;
+  height: 603px;
+  left: -1900px;
+  top: 530px; }
+  .blue-whale:hover {
+    -webkit-transform: rotate(-2deg) translate(40px, -20px);
+    -moz-transform: rotate(-2deg) translate(40px, -20px);
+    -ms-transform: rotate(-2deg) translate(40px, -20px);
+    -o-transform: rotate(-2deg) translate(40px, -20px);
+    transform: rotate(-2deg) translate(40px, -20px); }
+
+.bluefin-tuna {
+  background: url(/images/fish/bluefin-tuna.png) no-repeat;
+  background-size: 175px 92px;
+  width: 175px;
+  height: 92px;
+  bottom: 110px;
+  right: -430px; }
+  .bluefin-tuna:hover {
+    -webkit-transform: rotate(10deg) translate(-20px, 10px);
+    -moz-transform: rotate(10deg) translate(-20px, 10px);
+    -ms-transform: rotate(10deg) translate(-20px, 10px);
+    -o-transform: rotate(10deg) translate(-20px, 10px);
+    transform: rotate(10deg) translate(-20px, 10px); }
+
+.clam {
+  background: url(/images/fish/clam.png) no-repeat;
+  background-size: 80px 90px;
+  width: 80px;
+  height: 90px;
+  left: -400px;
+  top: 400px; }
+  .clam:hover {
+    -webkit-transform: rotate(10deg) translate(20px, 10px);
+    -moz-transform: rotate(10deg) translate(20px, 10px);
+    -ms-transform: rotate(10deg) translate(20px, 10px);
+    -o-transform: rotate(10deg) translate(20px, 10px);
+    transform: rotate(10deg) translate(20px, 10px); }
+
+.cod {
+  background: url(/images/fish/cod.png) no-repeat;
+  background-size: 220px 94px;
+  width: 220px;
+  height: 94px;
+  right: -510px;
+  top: 30px; }
+  .cod:hover {
+    -webkit-transform: rotate(-5deg) translate(-40px, 20px);
+    -moz-transform: rotate(-5deg) translate(-40px, 20px);
+    -ms-transform: rotate(-5deg) translate(-40px, 20px);
+    -o-transform: rotate(-5deg) translate(-40px, 20px);
+    transform: rotate(-5deg) translate(-40px, 20px); }
+
+.coho-salmon {
+  background: url(/images/fish/coho-salmon.png) no-repeat;
+  background-size: 153px 166px;
+  width: 153px;
+  height: 166px;
+  right: 150px;
+  top: 340px; }
+  .coho-salmon:hover {
+    -webkit-transform: rotate(-5deg) translate(10px, 20px);
+    -moz-transform: rotate(-5deg) translate(10px, 20px);
+    -ms-transform: rotate(-5deg) translate(10px, 20px);
+    -o-transform: rotate(-5deg) translate(10px, 20px);
+    transform: rotate(-5deg) translate(10px, 20px); }
+
+.common-sturgeon {
+  background: url(/images/fish/common-sturgeon.png) no-repeat;
+  background-size: 148px 152px;
+  width: 148px;
+  height: 152px;
+  bottom: 370px;
+  left: -360px; }
+  .common-sturgeon:hover {
+    -webkit-transform: rotate(-10deg) translate(10px, 20px);
+    -moz-transform: rotate(-10deg) translate(10px, 20px);
+    -ms-transform: rotate(-10deg) translate(10px, 20px);
+    -o-transform: rotate(-10deg) translate(10px, 20px);
+    transform: rotate(-10deg) translate(10px, 20px); }
+
+.crab {
+  background: url(/images/fish/crab.png) no-repeat;
+  background-size: 120px 105px;
+  width: 120px;
+  height: 105px;
+  bottom: 140px;
+  right: -740px; }
+  .crab:hover {
+    -webkit-transform: rotate(90deg) translate(50px, 50px);
+    -moz-transform: rotate(90deg) translate(50px, 50px);
+    -ms-transform: rotate(90deg) translate(50px, 50px);
+    -o-transform: rotate(90deg) translate(50px, 50px);
+    transform: rotate(90deg) translate(50px, 50px); }
+
+.eel {
+  background: url(/images/fish/eel.png) no-repeat;
+  background-size: 111px 122px;
+  width: 111px;
+  height: 122px;
+  right: 170px;
+  top: 520px; }
+  .eel:hover {
+    -webkit-transform: rotate(-10deg) translate(20px, -30px);
+    -moz-transform: rotate(-10deg) translate(20px, -30px);
+    -ms-transform: rotate(-10deg) translate(20px, -30px);
+    -o-transform: rotate(-10deg) translate(20px, -30px);
+    transform: rotate(-10deg) translate(20px, -30px); }
+
+.haddock {
+  background: url(/images/fish/haddock.png) no-repeat;
+  background-size: 175px 105px;
+  width: 175px;
+  height: 105px;
+  left: -220px;
+  top: 170px; }
+  .haddock:hover {
+    -webkit-transform: rotate(-10deg) translate(20px, -20px);
+    -moz-transform: rotate(-10deg) translate(20px, -20px);
+    -ms-transform: rotate(-10deg) translate(20px, -20px);
+    -o-transform: rotate(-10deg) translate(20px, -20px);
+    transform: rotate(-10deg) translate(20px, -20px); }
+
+.halibut {
+  background: url(/images/fish/halibut.png) no-repeat;
+  background-size: 116px 159px;
+  width: 116px;
+  height: 159px;
+  bottom: 380px;
+  right: 190px; }
+  .halibut:hover {
+    -webkit-transform: rotate(-15deg) translate(20px, 20px);
+    -moz-transform: rotate(-15deg) translate(20px, 20px);
+    -ms-transform: rotate(-15deg) translate(20px, 20px);
+    -o-transform: rotate(-15deg) translate(20px, 20px);
+    transform: rotate(-15deg) translate(20px, 20px); }
+
+.long-finned-albacore {
+  background: url(/images/fish/long-finned-albacore.png) no-repeat;
+  background-size: 147px 150px;
+  width: 147px;
+  height: 150px;
+  top: 470px;
+  left: 200px; }
+  .long-finned-albacore:hover {
+    -webkit-transform: rotate(-5deg) translate(-10px, -30px);
+    -moz-transform: rotate(-5deg) translate(-10px, -30px);
+    -ms-transform: rotate(-5deg) translate(-10px, -30px);
+    -o-transform: rotate(-5deg) translate(-10px, -30px);
+    transform: rotate(-5deg) translate(-10px, -30px); }
+
+.pollock {
+  background: url(/images/fish/pollock.png) no-repeat;
+  background-size: 97px 128px;
+  width: 97px;
+  height: 128px;
+  right: -85px;
+  top: 220px; }
+  .pollock:hover {
+    -webkit-transform: rotate(5deg) translate(20px, 20px);
+    -moz-transform: rotate(5deg) translate(20px, 20px);
+    -ms-transform: rotate(5deg) translate(20px, 20px);
+    -o-transform: rotate(5deg) translate(20px, 20px);
+    transform: rotate(5deg) translate(20px, 20px); }
+
+.salmon {
+  background: url(/images/fish/salmon.png) no-repeat;
+  background-size: 201px 205px;
+  width: 201px;
+  height: 205px;
+  bottom: 490px;
+  left: 120px; }
+  .salmon:hover {
+    -webkit-transform: rotate(-5deg) translate(-30px, 60px);
+    -moz-transform: rotate(-5deg) translate(-30px, 60px);
+    -ms-transform: rotate(-5deg) translate(-30px, 60px);
+    -o-transform: rotate(-5deg) translate(-30px, 60px);
+    transform: rotate(-5deg) translate(-30px, 60px); }
+
+.scallop {
+  background: url(/images/fish/scallop.png) no-repeat;
+  background-size: 72px 67px;
+  width: 72px;
+  height: 67px;
+  bottom: 120px;
+  right: 730px; }
+  .scallop:hover {
+    -webkit-transform: rotate(10deg) translate(20px, 10px);
+    -moz-transform: rotate(10deg) translate(20px, 10px);
+    -ms-transform: rotate(10deg) translate(20px, 10px);
+    -o-transform: rotate(10deg) translate(20px, 10px);
+    transform: rotate(10deg) translate(20px, 10px); }
+  @media screen and (max-width: 550px) {
+    .scallop {
+      left: 80px;
+      bottom: 530px; } }
+
+.shark {
+  background: url(/images/fish/shark.png) no-repeat;
+  background-size: 342px 182px;
+  width: 342px;
+  height: 182px;
+  right: -540px;
+  top: 250px; }
+  .shark:hover {
+    -webkit-transform: rotate(-5deg) translate(-120px, -20px);
+    -moz-transform: rotate(-5deg) translate(-120px, -20px);
+    -ms-transform: rotate(-5deg) translate(-120px, -20px);
+    -o-transform: rotate(-5deg) translate(-120px, -20px);
+    transform: rotate(-5deg) translate(-120px, -20px); }
+
+.sword-fish {
+  background: url(/images/fish/sword-fish.png) no-repeat;
+  background-size: 235px 232px;
+  width: 235px;
+  height: 232px;
+  right: -290px;
+  top: 340px; }
+  .sword-fish:hover {
+    -webkit-transform: rotate(5deg) translate(-20px, -50px);
+    -moz-transform: rotate(5deg) translate(-20px, -50px);
+    -ms-transform: rotate(5deg) translate(-20px, -50px);
+    -o-transform: rotate(5deg) translate(-20px, -50px);
+    transform: rotate(5deg) translate(-20px, -50px); }
+
+.wolffish {
+  background: url(/images/fish/wolffish.png) no-repeat;
+  background-size: 167px 91px;
+  width: 167px;
+  height: 91px;
+  bottom: 240px;
+  right: -370px; }
+  .wolffish:hover {
+    -webkit-transform: rotate(-5deg) translate(-20px, 20px);
+    -moz-transform: rotate(-5deg) translate(-20px, 20px);
+    -ms-transform: rotate(-5deg) translate(-20px, 20px);
+    -o-transform: rotate(-5deg) translate(-20px, 20px);
+    transform: rotate(-5deg) translate(-20px, 20px); }
+
+.about, .more {
+  color: #fff;
+  margin: 0;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+  background: url(../images/waves.png) repeat;
+  background-size: 150px 150px; }
+  .about a, .more a {
+    color: #fff; }
+
+.about {
+  background-color: #177f81; }
+
+.more {
+  background-color: #c94800; }
+
+.credits {
+  padding: 100px 0; }
+  .credits img {
+    max-width: 80%; }
+
+a.button {
+  font-size: 1.3em;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 15px 35px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border: 2px solid #fff; }
+  a.button:hover {
+    border: 2px dotted #fff;
+    position: relative;
+    top: 1px;
+    left: 1px; }
+
+a.logo {
+  border-bottom: none;
+  display: block;
+  padding-bottom: 50px; }
+
+.tile {
+  width: 145px;
+  height: 150px;
+  position: absolute;
+  top: 50%; }
+  .tile.tile-1 {
+    left: -30px;
+    -webkit-transform: rotate(10deg) translate(20px, 10px);
+    -moz-transform: rotate(10deg) translate(20px, 10px);
+    -ms-transform: rotate(10deg) translate(20px, 10px);
+    -o-transform: rotate(10deg) translate(20px, 10px);
+    transform: rotate(10deg) translate(20px, 10px); }
+  .tile.tile-2 {
+    top: 30%;
+    left: -50px;
+    -webkit-transform: rotate(-10deg) translate(20px, 10px);
+    -moz-transform: rotate(-10deg) translate(20px, 10px);
+    -ms-transform: rotate(-10deg) translate(20px, 10px);
+    -o-transform: rotate(-10deg) translate(20px, 10px);
+    transform: rotate(-10deg) translate(20px, 10px); }
+  .tile.tile-3 {
+    top: 20%;
+    right: -30px;
+    -webkit-transform: rotate(20deg) translate(20px, 10px);
+    -moz-transform: rotate(20deg) translate(20px, 10px);
+    -ms-transform: rotate(20deg) translate(20px, 10px);
+    -o-transform: rotate(20deg) translate(20px, 10px);
+    transform: rotate(20deg) translate(20px, 10px);
+    overflow: hidden; }
+  .tile.tile-4 {
+    top: 55%;
+    right: 0px;
+    -webkit-transform: rotate(20deg) translate(20px, 10px);
+    -moz-transform: rotate(20deg) translate(20px, 10px);
+    -ms-transform: rotate(20deg) translate(20px, 10px);
+    -o-transform: rotate(20deg) translate(20px, 10px);
+    transform: rotate(20deg) translate(20px, 10px); }
+  .tile.tile-5 {
+    top: 40%;
+    right: 0px;
+    -webkit-transform: rotate(-20deg) translate(20px, 10px);
+    -moz-transform: rotate(-20deg) translate(20px, 10px);
+    -ms-transform: rotate(-20deg) translate(20px, 10px);
+    -o-transform: rotate(-20deg) translate(20px, 10px);
+    transform: rotate(-20deg) translate(20px, 10px); }
+  .tile.tile-6 {
+    width: 203px;
+    height: 291px;
+    top: 20%;
+    right: 0px;
+    -webkit-transform: rotate(-20deg) translate(20px, 10px);
+    -moz-transform: rotate(-20deg) translate(20px, 10px);
+    -ms-transform: rotate(-20deg) translate(20px, 10px);
+    -o-transform: rotate(-20deg) translate(20px, 10px);
+    transform: rotate(-20deg) translate(20px, 10px); }
+  .tile.tile-7 {
+    width: 203px;
+    height: 291px;
+    top: 30%;
+    left: -40px;
+    -webkit-transform: rotate(20deg) translate(20px, 10px);
+    -moz-transform: rotate(20deg) translate(20px, 10px);
+    -ms-transform: rotate(20deg) translate(20px, 10px);
+    -o-transform: rotate(20deg) translate(20px, 10px);
+    transform: rotate(20deg) translate(20px, 10px); }
+  .tile:hover {
+    -webkit-transform: rotate(5deg) translate(20px, 10px);
+    -moz-transform: rotate(5deg) translate(20px, 10px);
+    -ms-transform: rotate(5deg) translate(20px, 10px);
+    -o-transform: rotate(5deg) translate(20px, 10px);
+    transform: rotate(5deg) translate(20px, 10px); }
+  @media screen and (max-width: 780px) {
+    .tile {
+      display: none; } }
+
+/*# sourceMappingURL=style.css.map */
