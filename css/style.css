@@ -14,7 +14,8 @@ section.hero {
   margin: 0 auto;
   position: relative;
   height: 800px;
-  width: 80%; }
+  width: 100%;
+  overflow: hidden; }
 
 .content {
   max-width: 500px;
@@ -39,6 +40,9 @@ a.shrimps {
   margin: auto; }
   a.shrimps:hover {
     background-image: url(../images/shrimps-matter-logo-over.png); }
+
+.french a.shrimps {
+  background-image: url(../images/shrimps-matter-logo-fr.png); }
 
 h2 {
   max-width: 550px;
@@ -113,7 +117,7 @@ a {
   width: 1600px;
   height: 603px;
   left: -1900px;
-  top: 530px; }
+  bottom: -530px; }
   .blue-whale:hover {
     -webkit-transform: rotate(-2deg) translate(40px, -20px);
     -moz-transform: rotate(-2deg) translate(40px, -20px);
@@ -349,7 +353,7 @@ a {
     -o-transform: rotate(-5deg) translate(-20px, 20px);
     transform: rotate(-5deg) translate(-20px, 20px); }
 
-.about, .more {
+.about, .more, .testimonial {
   color: #fff;
   margin: 0;
   padding: 100px 0;
@@ -357,7 +361,7 @@ a {
   overflow: hidden;
   background: url(../images/waves.png) repeat;
   background-size: 150px 150px; }
-  .about a, .more a {
+  .about a, .more a, .testimonial a {
     color: #fff; }
 
 .about {
@@ -366,10 +370,31 @@ a {
 .more {
   background-color: #c94800; }
 
+.testimonial {
+  background-color: #78b761;
+  padding: 2em 0 3em; }
+
+blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1.25em;
+  line-height: 1.85;
+  font-style: italic;
+  text-transform: none;
+  max-width: 630px;
+  position: relative;
+  margin: 3em auto 0; }
+
+cite {
+  display: block;
+  margin: 1em auto; }
+  cite:before {
+    content: "- "; }
+
 .credits {
   padding: 100px 0; }
   .credits img {
-    max-width: 80%; }
+    max-width: 300px; }
 
 a.button {
   font-size: 1.3em;
@@ -388,6 +413,7 @@ a.button {
 
 a.logo {
   border-bottom: none;
+  border-bottom-color: transparent;
   display: block;
   padding-bottom: 50px; }
 
@@ -465,5 +491,17 @@ a.logo {
   @media screen and (max-width: 780px) {
     .tile {
       display: none; } }
+
+.copyright {
+  font-size: 70%; }
+  .copyright a.img-link {
+    border-bottom: transparent;
+    color: white;
+    display: block; }
+
+a.translate {
+  position: absolute;
+  top: 10px;
+  right: 10px; }
 
 /*# sourceMappingURL=style.css.map */
